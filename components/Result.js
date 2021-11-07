@@ -28,7 +28,7 @@ const Result = ({ name, link, image }) => (
                     height="100em"
                 ></Image>
             </Box>
-            <Text color="black" fontSize="2xl" color="gray.500">
+            <Text fontSize="2xl" color="gray.500">
                 {name}
             </Text>
         </Box>
