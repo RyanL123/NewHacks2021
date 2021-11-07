@@ -1,15 +1,15 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Link } from "@chakra-ui/react";
 import Image from "next/image";
 
-const Card = ({ name, image, selected, index, toggleSelected }) => {
-    return (
+const Result = ({ name, link, image }) => (
+    <Link href={link} isExternal outline="none">
         <Box
             backgroundColor="white"
             p="2em"
             borderRadius="2em"
             border="1px solid"
-            borderColor={selected ? "purple.500" : "gray.200"}
-            boxShadow={selected ? "xl" : "md"}
+            borderColor="gray.200"
+            boxShadow="md"
             display="flex"
             flexDir="column"
             alignItems="center"
@@ -19,7 +19,6 @@ const Card = ({ name, image, selected, index, toggleSelected }) => {
                 cursor: "pointer",
             }}
             transition="box-shadow 0.3s, border 0.3s"
-            onClick={() => toggleSelected(index)} // passed down from parent
         >
             <Box borderRadius="1em">
                 <Image
@@ -29,11 +28,11 @@ const Card = ({ name, image, selected, index, toggleSelected }) => {
                     height="100em"
                 ></Image>
             </Box>
-            <Text fontSize="2xl" color="gray.500">
+            <Text color="black" fontSize="2xl" color="gray.500">
                 {name}
             </Text>
         </Box>
-    );
-};
+    </Link>
+);
 
-export default Card;
+export default Result;

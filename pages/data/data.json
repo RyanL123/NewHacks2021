@@ -1,0 +1,90 @@
+{
+    "companies": [
+        {
+            "name": "battle.net",
+            "link": "https://battle.net",
+            "img": "/battlenet.png",
+            "tags": ["Angular", "ASP", "React"]
+        },
+        {
+            "name": "bestbuy.com",
+            "link": "https://www.bestbuy.com/",
+            "img": "/bestbuy.png",
+            "tags": ["Angular", "ASP", "Express", "jQuery", "React"]
+        },
+        {
+            "name": "britannica.com",
+            "link": "https://www.britannica.com/",
+            "img": "/britannica.png",
+            "tags": ["Angular", "Ruby on Rails"]
+        },
+        {
+            "name": "businessinsider.com",
+            "link": "https://www.businessinsider.com/",
+            "img": "/business_insider.png",
+            "tags": ["Angular", "ASP", "Express", "jQuery", "React"]
+        },
+        {
+            "name": "cbs.com",
+            "link": "https://www.cbs.com/",
+            "img": "/cbs.png",
+            "tags": ["Angular", "ASP", "jQuery", "Ruby on Rails"]
+        },
+        {
+            "name": "cdc.gov",
+            "link": "https://www.cdc.gov/",
+            "img": "/cdc.png",
+            "tags": ["Angular", "ASP", "Drupal", "Ruby on Rails"]
+        },
+        {
+            "name": "costco.com",
+            "link": "https://www.costco.ca/",
+            "img": "/costco.png",
+            "tags": [
+                "Angular",
+                "ASP",
+                "Drupal",
+                "jQuery",
+                "React",
+                "Ruby on Rails"
+            ]
+        },
+        {
+            "name": "coursehero.com",
+            "link": "https://www.coursehero.com/",
+            "img": "/coursehero.png",
+            "tags": ["Angular", "Ruby on Rails"]
+        },
+        {
+            "name": "netflix.com",
+            "link": "https://www.netflix.com/ca/",
+            "img": "/netflix.png",
+            "tags": ["Angular", "Ember", "jQuery", "React", "Ruby on Rails"]
+        },
+        {
+            "name": "newegg.com",
+            "link": "https://www.newegg.ca/",
+            "img": "/newegg.png",
+            "tags": ["Angular", "ASP", "jQuery", "React"]
+        },
+        {
+            "name": "nike.com",
+            "link": "https://www.nike.com/ca/",
+            "img": "/nike.png",
+            "tags": [
+                "Angular",
+                "ASP",
+                "Express",
+                "jQuery",
+                "React",
+                "Ruby on Rails"
+            ]
+        },
+        {
+            "name": "target.com",
+            "link": "https://www.target.com/",
+            "img": "/target.png",
+            "tags": ["Angular", "Drupal", "Ember"]
+        }
+    ]
+}
