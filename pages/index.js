@@ -109,7 +109,7 @@ const Home = () => {
     return (
         <Box height="100%" backgroundColor="white" p="10%">
             <Heading color="black" size="3xl">
-                What Can I Build With My Tech?
+                What Can I Build With This Tech?
             </Heading>
             <Grid
                 templateColumns={[
